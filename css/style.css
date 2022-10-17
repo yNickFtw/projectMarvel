@@ -169,11 +169,25 @@ footer {
 .container-movies {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    overflow-x: scroll;
 }
 
-.movie {}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 55px;
+}
+
+
+.movie {
+    width: 300px;
+    height: 420px;
+    margin-left: 40px;
+}
 
 #movies {
     width: 250px;
@@ -183,4 +197,20 @@ footer {
 
 #movies:hover {
     transform: scale(1.1);
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.black {
+    color: black;
 }
