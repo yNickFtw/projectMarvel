@@ -156,3 +156,31 @@ footer {
 .white-p {
     color: white;
 }
+
+.background-white {
+    background-color: white;
+}
+
+.title-movies {
+    color: black;
+    font-size: 40px;
+}
+
+.container-movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie {}
+
+#movies {
+    width: 250px;
+    height: 400px;
+    transition: transform 0.1s linear;
+}
+
+#movies:hover {
+    transform: scale(1.1);
+}
