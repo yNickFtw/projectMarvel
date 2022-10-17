@@ -254,9 +254,18 @@ footer {
         flex-direction: column;
     }
 
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #banner-img {
         width: 300px;
-        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         margin-top: 20px;
     }
 
@@ -296,5 +305,9 @@ footer {
 
     #movies {
         margin-left: 5px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
