@@ -275,4 +275,15 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+
+    .title-movies {
+        font-size: 25px;
+    }
+
+    .container-movies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: scroll;
+    }
 }
