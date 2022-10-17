@@ -9,6 +9,8 @@ body {
     background-image: url(../img/background.png);
     max-width: 1400px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -213,4 +215,64 @@ footer {
 
 .black {
     color: black;
+}
+
+.green {
+    color: green;
+}
+
+@media (max-width: 368px) {
+    body {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+
+    .main-aside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        width: 300px;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #banner-img {
+        width: 300px;
+    }
+
+    aside {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: ;
+    }
+
+    .container {
+        margin-top: 5px;
+        margin-left: 19px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
